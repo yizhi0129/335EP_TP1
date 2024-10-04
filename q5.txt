@@ -1,0 +1,3 @@
+trace_a: work time 49998.0 s
+trace_b: work time 448119.0 s
+trace_c: work time 111883.0 s

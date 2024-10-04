@@ -1,0 +1,3 @@
+trace_a: count = 2278, sum = 35292.0 Bytes
+trace_b: count = 12260, sum = 49040.0 Bytes
+trace_c: count = 7371, sum = 291488.0 Bytes

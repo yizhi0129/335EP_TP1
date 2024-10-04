@@ -1,0 +1,3 @@
+trace_a: address space = 4113.0 Bytes
+trace_b: address space = 16777136.0 Bytes
+trace_c: address space = 997404.0 Bytes
