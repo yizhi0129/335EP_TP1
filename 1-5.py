@@ -21,3 +21,5 @@ result_c = time_range('trace_c.data')
 print(f"trace_a: work time {result_a} s")
 print(f"trace_b: work time {result_b} s")
 print(f"trace_c: work time {result_c} s")
+
+# but we are not sure about the execution time of the last request

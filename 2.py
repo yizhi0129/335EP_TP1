@@ -30,7 +30,7 @@ def generate_requests(output_file, N, t_min, t_max, n_r, n_w, p_h, h, s_med, std
             # request size following normal distribution in KB
             request_size = max(1, int(np.random.normal(s_med, stddev)))  
             
-            f.write(f"{request_id} {time:.4f} {operation} {address} {request_size}\n")
+            f.write(f"{request_id} {time:.2f} {operation} {address} {request_size}\n")
 
 output_file = 'generated_trace.data'
 N = 10000

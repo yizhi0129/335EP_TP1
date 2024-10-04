@@ -29,6 +29,7 @@ def is_normal_distribution(file_path):
     stat, p_value = stats.shapiro(values)
 
     return p_value > 0.05
+# numerical methods to check if the values follow a normal distribution
 
 def check_files_for_conditions(files):
     constant_files = []
@@ -49,3 +50,6 @@ constant_files, normal_distribution_files = check_files_for_conditions(files)
 
 print(f"Request size is constant for file {constant_files}")
 print(f"Request size follows a normal distribution for file {normal_distribution_files}")
+
+# could not execute 
+# problem with scipy import
